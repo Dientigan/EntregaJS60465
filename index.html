@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sabor de Hogas menu del dia</title>
+
+        <!--Herramientas externas-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+        <!--conex con estilos y funciones-->
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <section class="menu">
+            <div class="contenedor-menu">
+                <div class="head-menu">
+                    <h2>Menu del dia</h2>
+                    <p>Ponte comodo y deleitate con nuestra comida. despues de todo estando en sabor de hogar nunca saliste de casa.</p>
+                </div>
+                <div class="botones-menu">
+                    <button type="button" class="boton-menu boton-activo" id="clasicos">Clasicos</button>
+                    <button type="button" class="boton-menu" id="Especiales">Especiales</button>
+                    <button type="button" class="boton-menu" id="adiciones">Adiciones</button>
+                </div>
+
+                <div class="opciones-platos">
+
+                    <!--Objeto-->
+                    <div class="opciones-plato Especiales">
+                        <div class="imagen-plato">
+                            <img src="./img/IMG_20220703_195722.jpg" alt="Imagen Birria">
+                        </div>
+                        <div class="informacion-plato">
+                            <h2 class="nombre-comida">Birria</h2>
+                            <div class="linea"></div>
+                            <h3 class="precio">40.000 COP</h3>
+                            <ul class="valoracion">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            <div class="categoria"><p>Categoria: <span>Especiales</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin del objeto-->
+
+                    <!--Objeto-->
+                    <div class="opciones-plato clasicos">
+                        <div class="imagen-plato">
+                            <img src="./img/IMG_20220828_125643.jpg" alt="Imagen Pizza">
+                        </div>
+                        <div class="informacion-plato">
+                            <h2 class="nombre-comida">Pizza</h2>
+                            <div class="linea"></div>
+                            <h3 class="precio">30.000 COP</h3>
+                            <ul class="valoracion">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            <div class="categoria"><p>Categoria: <span>Clasicos</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin del objeto-->
+
+                    <!--Objeto-->
+                    <div class="opciones-plato Especiales">
+                        <div class="imagen-plato">
+                            <img src="./img/IMG_20220916_182857.jpg" alt="Imagen Pasta di mare">
+                        </div>
+                        <div class="informacion-plato">
+                            <h2 class="nombre-comida">Pasta di mare</h2>
+                            <div class="linea"></div>
+                            <h3 class="precio">40.000 COP</h3>
+                            <ul class="valoracion">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            <div class="categoria"><p>Categoria: <span>Especiales</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin del objeto-->
+
+                    <!--Objeto-->
+                    <div class="opciones-plato clasicos">
+                        <div class="imagen-plato">
+                            <img src="./img/IMG_20221127_173953.jpg" alt="Imagen Empanadas">
+                        </div>
+                        <div class="informacion-plato">
+                            <h2 class="nombre-comida">Empanadas</h2>
+                            <div class="linea"></div>
+                            <h3 class="precio">14.000 COP</h3>
+                            <ul class="valoracion">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            <div class="categoria"><p>Categoria: <span>Clasicos</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin del objeto-->
+
+                    <!--Objeto-->
+                    <div class="opciones-plato adiciones">
+                        <div class="imagen-plato">
+                            <img src="./img/papas.jpg" alt="Imagen papas fritas">
+                        </div>
+                        <div class="informacion-plato">
+                            <h2 class="nombre-comida">Papas fritas</h2>
+                            <div class="linea"></div>
+                            <h3 class="precio">6.000 COP</h3>
+                            <ul class="valoracion">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            <div class="categoria"><p>Categoria: <span>Adiciones</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin del objeto-->
+
+                    <!--Objeto-->
+                    <div class="opciones-plato adiciones">
+                        <div class="imagen-plato">
+                            <img src="./img/pan-de-ajo.jpg" alt="Imagen pan de ajo">
+                        </div>
+                        <div class="informacion-plato">
+                            <h2 class="nombre-comida">Pan de ajo</h2>
+                            <div class="linea"></div>
+                            <h3 class="precio">10.000 COP</h3>
+                            <ul class="valoracion">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            <div class="categoria"><p>Categoria: <span>Adiciones</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin del objeto-->
+
+                </div>
+            </div>
+        </section>
+        <script src="codigo.js"></script>
+    </body>
+</html>

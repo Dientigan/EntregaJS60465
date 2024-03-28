@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+/* reset de estilos*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+/*Config inicial*/
+
+body{
+    line-height: 1.5;
+    font-family: "Kaushan Script", cursive;
+    background-color: #443554;
+    color: #fff;
+         
+}      
+
+/*cajas y stilos */
+
+.menu{
+    margin: 2 rem;
+}
+
+.contenedor-menu{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.1rem;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.head-menu{
+    text-align: center;
+}
+
+.head-menu h2{
+    font-family: "Kaushan Script", cursive;
+    font-size: 2.6rem;
+}
+
+.head-menu p{
+    font-weight: 300;
+    padding: 1.8rem 0;
+}
+
+.botones-menu{
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-menu{
+    font-family: "Kaushan Script", cursive;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: #ff9505;
+    display: block;
+    margin: 0 1rem;
+    cursor: pointer;
+    outline: 0;
+    transition: opacity 0.4s ease-out;
+}
+
+.boton-menu::after{
+    content:"";
+    display: block;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ff9505;
+    margin-top: 0.5rem;
+    width: 0;
+    transition: width 0.4s ease-out;
+}
+
+.boton-menu:hover::after{
+   width: 100%;
+}
+
+.boton-menu:hover{
+    opacity: 0.8;
+}
+
+.boton-activo{
+    color: #fff
+}
+
+.opciones-platos{
+    margin: 2rem 0;
+}
+
+.opciones-plato{
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    color: #000;
+    margin: 0.6rem 0;
+    box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.75,);
+    display: ;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.imagen-plato img{
+    border-radius: 4px;
+}
+
+.informacion-plato{
+    padding: 1rem;
+}
+
+.nombre-comida{
+    font-family: "Kaushan Script", cursive;
+    color: #ff9505;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.linea{
+    width: 100px;
+    height: 3px;
+    background: #ff9505;
+}
+
+.precio{
+    padding: 0.4rem 0;
+    font-weight: 600;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+
+.valoracion{
+    display: flex;
+    list-style: none;
+}
+
+.valoracion .fa-star{
+    margin-right: 0.4rem;
+    color: #44355b;
+}
+
+.categoria{
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "Kaushan Script", cursive;
+}
+
+.categoria span{
+    font-weight: 500;
+}
+
+@media screen and (min-width: 600px){
+    .opciones-plato{
+        display: grid;
+        grid-template-columns: 25% auto;
+        align-items: center;
+        padding: 1rem;
+        column-gap: 1rem;
+    }
+    .informacion-plato{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .head-menu p{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .head-menu p{
+        width: 50%;
+    }
+    .opciones-platos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}

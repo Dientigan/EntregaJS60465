@@ -19,7 +19,9 @@
             <div class="contenedor-menu">
                 <div class="head-menu">
                     <h2>Menu del dia</h2>
-                    <p>Ponte comodo y deleitate con nuestra comida. despues de todo estando en sabor de hogar nunca saliste de casa.</p>
+                    <p>Ponte comodo y deleitate con nuestra comida. despues de todo estando en sabor de hogar nunca saliste de casa.
+                    </p>
+                    <h1> Selecciona el tipo de plato que deseas hoy:</h1>
                 </div>
                 <div class="botones-menu">
                     <button type="button" class="boton-menu boton-activo" id="clasicos">Clasicos</button>
@@ -28,8 +30,7 @@
                 </div>
 
                 <div class="opciones-platos">
-
-                    <!--Objeto-->
+<!-- <!--Objeto-->
                     <div class="opciones-plato Especiales">
                         <div class="imagen-plato">
                             <img src="./img/IMG_20220703_195722.jpg" alt="Imagen Birria">
@@ -37,7 +38,7 @@
                         <div class="informacion-plato">
                             <h2 class="nombre-comida">Birria</h2>
                             <div class="linea"></div>
-                            <h3 class="precio">40.000 COP</h3>
+                            <h3 class="precio">40.000</h3>
                             <ul class="valoracion">
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
@@ -46,7 +47,7 @@
                                 <li><i class="far fa-star"></i></li>
                             </ul>
                             <div class="categoria"><p>Categoria: <span>Especiales</span></p>
-
+                                <button class="boton-compra" id="birria">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
@@ -60,7 +61,7 @@
                         <div class="informacion-plato">
                             <h2 class="nombre-comida">Pizza</h2>
                             <div class="linea"></div>
-                            <h3 class="precio">30.000 COP</h3>
+                            <h3 class="precio">30.000</h3>
                             <ul class="valoracion">
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
@@ -69,7 +70,7 @@
                                 <li><i class="far fa-star"></i></li>
                             </ul>
                             <div class="categoria"><p>Categoria: <span>Clasicos</span></p>
-
+                                <button class="boton-compra" id="pizza">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
@@ -92,7 +93,7 @@
                                 <li><i class="far fa-star"></i></li>
                             </ul>
                             <div class="categoria"><p>Categoria: <span>Especiales</span></p>
-
+                                <button class="boton-compra" id="pasta">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
@@ -106,7 +107,7 @@
                         <div class="informacion-plato">
                             <h2 class="nombre-comida">Empanadas</h2>
                             <div class="linea"></div>
-                            <h3 class="precio">14.000 COP</h3>
+                            <h3 class="precio">14.000</h3>
                             <ul class="valoracion">
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
@@ -115,7 +116,7 @@
                                 <li><i class="far fa-star"></i></li>
                             </ul>
                             <div class="categoria"><p>Categoria: <span>Clasicos</span></p>
-
+                                <button class="boton-compra" id="empanadas">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
@@ -129,7 +130,7 @@
                         <div class="informacion-plato">
                             <h2 class="nombre-comida">Papas fritas</h2>
                             <div class="linea"></div>
-                            <h3 class="precio">6.000 COP</h3>
+                            <h3 class="precio">6.000</h3>
                             <ul class="valoracion">
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
@@ -138,7 +139,7 @@
                                 <li><i class="far fa-star"></i></li>
                             </ul>
                             <div class="categoria"><p>Categoria: <span>Adiciones</span></p>
-
+                                <button class="boton-compra" id="papas">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
@@ -152,7 +153,7 @@
                         <div class="informacion-plato">
                             <h2 class="nombre-comida">Pan de ajo</h2>
                             <div class="linea"></div>
-                            <h3 class="precio">10.000 COP</h3>
+                            <h3 class="precio">10.000</h3>
                             <ul class="valoracion">
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
@@ -161,15 +162,20 @@
                                 <li><i class="far fa-star"></i></li>
                             </ul>
                             <div class="categoria"><p>Categoria: <span>Adiciones</span></p>
-
+                                <button class="boton-compra" id="pan">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
                     <!--fin del objeto-->
+                   
 
+                
+                <div class="menu-carro">
+                    <a href="./pages/carro.html"><img src="./img/3144456.png" alt="Carrito de compra"></a>
+                </div>
                 </div>
             </div>
         </section>
-        <script src="codigo.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>

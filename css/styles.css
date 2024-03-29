@@ -104,7 +104,6 @@ img{
     color: #000;
     margin: 0.6rem 0;
     box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.75,);
-    display: ;
     animation: fadeIn 2s;
 }
 
@@ -166,6 +165,23 @@ img{
     font-weight: 500;
 }
 
+/*botones de compra*/
+
+.boton-compra {
+    background-color: transparent;
+    border: 0;
+    font-family: "Kaushan Script", cursive;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: .85rem;
+    width: 100%;
+}
+
+
 @media screen and (min-width: 600px){
     .opciones-plato{
         display: grid;
@@ -196,4 +212,17 @@ img{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
+}
+
+.menu-carro img {
+    max-width: 20%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.menu-carro{
+    display: block;
+    justify-content: center;
 }

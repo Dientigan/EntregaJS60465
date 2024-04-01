@@ -1,4 +1,3 @@
-
 /*arrays*/
 
 const productos = [
@@ -78,6 +77,8 @@ const agregarProducto = document.querySelectorAll(".boton-compra")
 
 
 /*funciones*/
+
+//seleccion de categoria
 let activeBtn = "categoria";
 
 showFoodMenu(activeBtn);
@@ -107,19 +108,19 @@ function showFoodMenu(newMenuBtn){
     });
 }
 
-/*funcion de guardado en carro*/
+//funcion de guardado en carro
 
-let cardtProducts = []
+let cartProducts = [];
 
+addtocardtBotton();
 
 function addtocardtBotton () {
-    let addboton = document.querySelectorAll (".boton-menu")
-    addbutton.forEach(button => {
+    agregarProducto.forEach(button => {
         button.onclick = (e) => {
             const prooductId = e.currentTarget.id
-            const selectproduct = agregarProducto.find  (button.id == productId)
-            cardtProducts.push
-            console.log (cardtProducts)
+            const selectproduct = productos.find (producto => productos.id == productos)
+            cartProducts.push = selectproduct;
+            console.log (cartProducts)
         }
         
     });

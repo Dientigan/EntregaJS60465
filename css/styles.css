@@ -15,7 +15,7 @@ body{
     background-color: #443554;
     color: #fff;
          
-}      
+}
 
 /*cajas y stilos */
 
@@ -214,15 +214,25 @@ img{
     }
 }
 
-.menu-carro img {
-    max-width: 20%;
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-
+.menu-carro{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.1rem;
+    font-family: "Kaushan Script", cursive;
+    font-size: 2.6rem;
+    color: #ff9505;
 }
 
-.menu-carro{
+.carrito{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.1rem;
+    font-size: 2.6rem;
+}
+
+.carrito a{
     display: block;
-    justify-content: center;
+    font-style: none;
+    text-decoration: none;
+    color:#ff9505;
 }
